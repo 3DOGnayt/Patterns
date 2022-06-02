@@ -7,11 +7,11 @@ namespace Assets.Scripts.PatternsPovideniya.Observable
         {
             NastroenieInfo nastroenie = (NastroenieInfo)ob;
 
-            if (nastroenie.zamechatelnoe == 1)
+            if (nastroenie == NastroenieInfo.zamechatelnoe)
                 Console.WriteLine("Всем сыра!!!");
-            if (nastroenie.nezamechatelnoe == 2)
+            if (nastroenie == NastroenieInfo.nezamechatelnoe)
                 Console.WriteLine("Убить всех");
-            if (nastroenie.mmmm == 0)
+            if (nastroenie == NastroenieInfo.mmmm)
                 Console.WriteLine("Скууууучнаааааа");            
         }
     }

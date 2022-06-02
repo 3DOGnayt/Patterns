@@ -7,7 +7,6 @@ namespace Assets.Scripts.PorojdayoushiePatterns.Factory_Method
             var a = HeroFactory.Creator(TypeHero.Archer);
             var b = HeroFactory.Creator(TypeHero.Enemy);
             var c = HeroFactory.Creator(TypeHero.Knight);
-
         }
     }
 }

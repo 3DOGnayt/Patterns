@@ -18,6 +18,7 @@ namespace Assets.Scripts.PatternsPovideniya.Observable
         {
             prosiashie.Add(o);
         }
+
         public void RemoveProsiashy(IProsiashy o)
         {
             prosiashie.Remove(o);
@@ -28,20 +29,13 @@ namespace Assets.Scripts.PatternsPovideniya.Observable
             foreach (IProsiashy prosiashy in prosiashie)
                 prosiashy.Update(nastroenie);
         }
-
-        public void MB()
-        {
-            nastroenie.zamechatelnoe = 1;
-            nastroenie.nezamechatelnoe = 2;
-            nastroenie.mmmm = 0;
-        }
     }
     
 
-    internal class NastroenieInfo
+    enum NastroenieInfo
     {
-        public int zamechatelnoe;
-        public int nezamechatelnoe;
-        public int mmmm;
+        zamechatelnoe,
+        nezamechatelnoe,
+        mmmm
     }
 }

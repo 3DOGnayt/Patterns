@@ -5,6 +5,5 @@ namespace Assets.Scripts.PorojdayoushiePatterns.Factory_Method
         Knight,
         Archer,
         Enemy
-
     }
 }
